@@ -1,0 +1,5 @@
+{
+    "python.autoComplete.addBrackets": true,
+    "autoDocstring.includeName": true,
+    "editor.autoClosingDelete": "always"
+}

@@ -1,0 +1,56 @@
+[07/14/2021 00:23:13] {logging_tutorial.py:18} DEBUG - This is for debugging
+[07/14/2021 00:23:13] {logging_tutorial.py:19} INFO - Info message
+[07/14/2021 00:23:13] {logging_tutorial.py:22} WARNING - Warning
+[07/14/2021 00:23:13] {logging_tutorial.py:23} ERROR - This is error
+[07/14/2021 00:23:13] {logging_tutorial.py:24} CRITICAL - This is critical
+[07/14/2021 00:23:22] {logging_tutorial.py:18} DEBUG - This is for debugging
+[07/14/2021 00:23:22] {logging_tutorial.py:19} INFO - Info message
+[07/14/2021 00:23:22] {logging_tutorial.py:22} WARNING - Warning
+[07/14/2021 00:23:22] {logging_tutorial.py:23} ERROR - This is error
+[07/14/2021 00:23:22] {logging_tutorial.py:24} CRITICAL - This is critical
+[07/14/2021 00:24:00] {logging_tutorial.py:19} INFO - Info message
+[07/14/2021 00:24:00] {logging_tutorial.py:22} WARNING - Warning
+[07/14/2021 00:24:00] {logging_tutorial.py:23} ERROR - This is error
+[07/14/2021 00:24:00] {logging_tutorial.py:24} CRITICAL - This is critical
+[07/14/2021 00:24:06] {/Users/spydermac/OneDrive - Athlone Institute Of Technology/tutorials/python_tutorials/logging_tutorial.py:19} INFO - Info message
+[07/14/2021 00:24:06] {/Users/spydermac/OneDrive - Athlone Institute Of Technology/tutorials/python_tutorials/logging_tutorial.py:22} WARNING - Warning
+[07/14/2021 00:24:06] {/Users/spydermac/OneDrive - Athlone Institute Of Technology/tutorials/python_tutorials/logging_tutorial.py:23} ERROR - This is error
+[07/14/2021 00:24:06] {/Users/spydermac/OneDrive - Athlone Institute Of Technology/tutorials/python_tutorials/logging_tutorial.py:24} CRITICAL - This is critical
+[07/14/2021 00:24:20] {/Users/spydermac/OneDrive - Athlone Institute Of Technology/tutorials/python_tutorials/logging_tutorial.py:19} INFO - Info message
+[07/14/2021 00:24:20] {/Users/spydermac/OneDrive - Athlone Institute Of Technology/tutorials/python_tutorials/logging_tutorial.py:22} WARNING - Warning
+[07/14/2021 00:24:20] {/Users/spydermac/OneDrive - Athlone Institute Of Technology/tutorials/python_tutorials/logging_tutorial.py:23} ERROR - This is error
+[07/14/2021 00:24:20] {/Users/spydermac/OneDrive - Athlone Institute Of Technology/tutorials/python_tutorials/logging_tutorial.py:24} CRITICAL - This is critical
+[07/14/2021 00:26:32] - root -  INFO - Info message
+[07/14/2021 00:26:32] - root -  WARNING - Warning
+[07/14/2021 00:26:32] - root -  ERROR - This is error
+[07/14/2021 00:26:32] - root -  CRITICAL - This is critical
+[07/14/2021 00:30:57] - root -  INFO - Info message
+[07/14/2021 00:30:57] - root -  WARNING - Warning
+[07/14/2021 00:30:57] - root -  ERROR - This is error
+[07/14/2021 00:30:57] - root -  CRITICAL - This is critical
+[07/14/2021 00:31:59] - root -  INFO - Info message
+[07/14/2021 00:31:59] - root -  WARNING - Warning
+[07/14/2021 00:31:59] - root -  ERROR - This is error
+[07/14/2021 00:31:59] - root -  CRITICAL - This is critical
+[07/14/2021 00:32:13] - root -  INFO - Info message
+[07/14/2021 00:32:13] - root -  WARNING - Warning
+[07/14/2021 00:32:13] - root -  ERROR - This is error
+[07/14/2021 00:32:13] - root -  CRITICAL - This is critical
+[07/14/2021 00:32:49] - root -  INFO - Info message
+[07/14/2021 00:32:49] - root -  WARNING - Warning
+[07/14/2021 00:32:49] - root -  ERROR - This is error
+[07/14/2021 00:32:49] - root -  CRITICAL - This is critical
+[07/14/2021 00:33:41] - root -  INFO - Info message
+[07/14/2021 00:33:41] - root -  WARNING - Warning
+[07/14/2021 00:33:41] - root -  ERROR - This is error
+[07/14/2021 00:33:41] - root -  CRITICAL - This is critical
+07/14/2021 00:37:16] - root -  INFO - Info message
+07/14/2021 00:37:16] - root -  WARNING - Warning
+07/14/2021 00:37:16] - root -  ERROR - This is error
+07/14/2021 00:37:16] - root -  CRITICAL - This is critical
+[07/14/2021 09:27:44] - root -  DEBUG - This is for debugging
+[07/14/2021 09:27:44] - root -  INFO - Info message
+[07/14/2021 09:27:44] - root -  WARNING - Warning
+[07/14/2021 09:27:44] - root -  ERROR - This is error
+[07/14/2021 09:27:44] - root -  CRITICAL - This is critical
+[07/14/2021 09:29:08] - helper -  INFO - Helper logger
