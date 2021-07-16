@@ -18,16 +18,16 @@ FPS = 60
 WIDTH, HEIGHT = 600, 700
 
 # individual pixels
-ROWS = COLS = 50
+ROWS = COLS = 150
 
 # toolbar size 
 TOOLBAR = HEIGHT - WIDTH
-PIXEL_SIZE = WIDTH // COLS
+PIXEL_SIZE = WIDTH // COLS 
 
 # BIXEL SIZE
 BG_COLOR = WHITE
 
-DRAW_GRID_LINE = False
+DRAW_GRID_LINES = True
 
 def get_font(size):
     """[summary]
