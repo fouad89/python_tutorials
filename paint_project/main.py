@@ -4,7 +4,7 @@ from utils import *
 WIN = pygame.display.set_mode((WIDTH, HEIGHT))
 
 # set caption of window
-pygame.display.set_caption("Paint Programm")
+pygame.display.set_caption("Python Paint")
     
 # grid & pixels
 def init_grid(rows, cols, color):
@@ -37,9 +37,12 @@ def draw_grid(win, grid):
             pygame.draw.line(win, BLACK, (i * PIXEL_SIZE, 0),
                              (i * PIXEL_SIZE, HEIGHT - TOOLBAR))
 # drawing
-def draw(win, grid):
+def draw(win, grid, buttons):
+    
     win.fill(BG_COLOR)
     draw_grid(win,grid)
+    for button in buttons:
+        button.draw(win)
     pygame.display.update()
 
 
@@ -61,7 +64,15 @@ clock = pygame.time.Clock()
 grid =init_grid(ROWS, COLS, BG_COLOR)
 drawing_color = BLACK
 
-
+# set up buttons 
+button_y = HEIGHT - TOOLBAR/2 - 25
+buttons = [Button(10, button_y, 50, 50, BLACK),
+           Button(70, button_y, 50, 50, RED),
+           Button(130, button_y, 50, 50, GREEN),
+           Button(190, button_y, 50, 50, BLUE),
+           Button(250, button_y, 50, 50, WHITE, text="Erase", text_color = BLACK),
+           Button(321, button_y, 50, 50, WHITE, text="Clear",text_color= BLACK)
+           ]
 
 while run:
     clock.tick(FPS)
@@ -75,8 +86,18 @@ while run:
                 row, col = get_row_col_from_pos(pos)
                 grid[row][col] = drawing_color
             except IndexError:
-                pass
+                for button in buttons:
+                    if not button.clicked(pos):
+                        continue
+                    drawing_color = button.color
+                    if button.text == "Clear":
+                        grid = init_grid(ROWS, COLS, BG_COLOR)
+                        drawing_color = BLACK
+                        
+                        
+                    
+                        
 
-    draw(WIN, grid)
+    draw(WIN, grid, buttons)
 
 pygame.quet()
